@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * EhrlichAndreas\Bundle\StockCmsBundle\Entity\Order
  *
  * @ORM\Entity()
- * @ORM\Table(name="stock_cart")
+ * @ORM\Table(name="stock_order")
  *
  * @author Andreas Ehrlich
  */

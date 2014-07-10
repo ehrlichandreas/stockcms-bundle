@@ -55,4 +55,14 @@ class CartProduct
 	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
 	 */
 	protected $product_quantity;
+
+	/**
+	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
+	 */
+	protected $extern_id;
+
+	/**
+	 * @ORM\Column(type="bigint", nullable=false, options={"default": "0"})
+	 */
+	protected $extern_id_type;
 }
