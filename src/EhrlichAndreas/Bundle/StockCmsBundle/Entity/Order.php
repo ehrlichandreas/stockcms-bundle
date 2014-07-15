@@ -47,12 +47,12 @@ class Order
 	protected $cart_id;
 
 	/**
-	 * @ORM\Column(type="decimal", precision="17", scale="2", nullable=false, options={"default": "0.00"})
+	 * @ORM\Column(type="decimal", precision=17, scale=2, nullable=false, options={"default": "0.00"})
 	 */
 	protected $total;
 
 	/**
-	 * @ORM\Column(type="decimal", precision="17", scale="2",, nullable=false, options={"default": "0.00"})
+	 * @ORM\Column(type="decimal", precision=17, scale=2, nullable=false, options={"default": "0.00"})
 	 */
 	protected $total_paid;
 
