@@ -19,7 +19,7 @@ class CartProduct
 	 * @ORM\Column(type="bigint")
 	 * @ORM\GeneratedValue(strategy="AUTO")
 	 */
-	protected $cart_id;
+	protected $cart_product_id;
 
 	/**
 	 * @ORM\Column(type="datetime", nullable=false, options={"default": "0001-01-01 00:00:00"})
